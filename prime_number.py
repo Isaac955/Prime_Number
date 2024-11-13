@@ -33,8 +33,6 @@ def generate_random_prime():
         x = random.randint(2, 10**2)
         if is_prime(x):
             return x
-
-
 #test
 print(is_prime(7))
 print(is_prime(10))
